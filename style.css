@@ -1,0 +1,1038 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+*{
+   
+    font-family: "Manrope", sans-serif;
+    
+
+}
+body{
+    background-color: #040C18;
+}
+.mainwrapper{
+    margin: 0px;
+    padding: 0px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-size: clamp(8px, 5vw, 12px);
+    padding: 25px 80px;
+}
+.navigation{
+    display: flex;
+    width: 70%;
+    gap: 10%;
+    align-items: center;
+}
+.navigation :nth-child(1){
+    font-size: clamp(10px, 5vw, 18px);
+    font-weight: bolder;
+}
+.navigation li {
+    list-style: none;
+}
+
+.signing{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    width: 30%;
+}
+.signing button{
+    color: white;
+    background: transparent;
+    border: none;
+    padding: 10px 30px 10px 30px;
+}
+.signing :nth-child(2){
+    background-color: red;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.herodisplay{
+    display: flex;
+    justify-content: center;
+    padding: 0px 80px;
+    gap: 4%
+   
+}
+.herocontent{
+    color: white;
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    flex-direction: column;
+   
+   
+}
+.heropic
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+
+/* Keyframes for subtle back and forth animation */
+@keyframes move {
+    0% {
+        transform: translate(-3px, -2px);
+        
+        -webkit-transform: translate(-3px, -2px);
+        -moz-transform: translate(-3px, -2px);
+        -ms-transform: translate(-3px, -2px);
+        -o-transform: translate(-3px, -2px);
+}
+    50% {
+        transform: translate(3px, 2px);
+     
+        -webkit-transform: translate(3px, 2px);
+        -moz-transform: translate(3px, 2px);
+        -ms-transform: translate(3px, 2px);
+        -o-transform: translate(3px, 2px);
+}
+    100% {
+        transform: translate(-3px, -2px);
+     
+        -webkit-transform: translate(-3px, -2px);
+        -moz-transform: translate(-3px, -2px);
+        -ms-transform: translate(-3px, -2px);
+        -o-transform: translate(-3px, -2px);
+}
+}
+
+
+.heropic img {
+    width: 100%;
+    height: 100%;
+    animation: move 2s ease-in-out infinite; /* Apply the move animation */
+}
+
+/* Apply hover animation to the image on hover */
+.heropic img:hover {
+    animation: hover-effect 0.8s forwards;
+    transform: scale(1.1);
+    -webkit-animation: hover-effect 0.8s forwards;
+}
+
+
+@keyframes hover-effect {
+    100% {
+        transform: scale(1.2);
+        
+        -webkit-transform: scale(1.2);
+        -moz-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+        -o-transform: scale(1.2);
+}
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+    font-size: inherit;
+}
+a:hover{
+    color: lightcoral;
+}
+
+.herotext{
+    font-size: clamp(20px, 5vw, 40px);
+    font-weight: 800;
+    background: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 105.37%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+.midtext{
+    margin-block: 0px;
+    color: #81AFDD;
+}
+.email{
+    
+    padding: 25px 0px;
+    display: flex;
+}
+.email button{
+    background-color: red;
+    border: none;
+    color: white;
+    border-radius: 5px, 0px, 0px, 5px ;
+    -webkit-border-radius: 5px, 0px, 0px, 5px ;
+    -moz-border-radius: 5px, 0px, 0px, 5px ;
+    -ms-border-radius: 5px, 0px, 0px, 5px ;
+    -o-border-radius: 5px, 0px, 0px, 5px ;
+    padding: 10px 30px 10px 30px;
+}
+.text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text p{
+    background-color: 052D56;
+}
+.people{
+    padding: 15px 0px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.pimg{
+    width: 30%;
+}
+.pimg img{
+    width: 100%;
+    height: 100%;
+}
+.ptxt{
+    width: 70%;
+}
+.ptxt p{
+    font-size: clamp(6px, 5vw, 10px);
+}
+.email input{
+    background-color: #052D56;
+    border: none;
+    width: 65%;
+    padding-left: 20px;
+    border-radius: 5px, 0px, 0px, 5px;
+    
+}
+.tools{
+    display: flex;
+    justify-content: center;
+    padding: 70px;
+    gap: 50px;
+}
+.toolimg img {
+    width: 100%;
+    
+}
+.toolimg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.introduction{
+    display: flex;
+    padding: 20px;
+    background: linear-gradient(99deg, #084a66, #cbc2c291);
+    box-shadow: 0px 4px 4px 0px #00000040;
+    margin: 0px 80px;
+
+}
+.intro1{
+    background: transparent;
+    display: flex;
+    padding: 20px;
+}
+.left1{
+    width: 30%;
+
+}
+.left1 p{
+    font-size: clamp(12px, 5vw, 25px);
+    font-weight: 800;
+}
+.right1{
+    width: 70%;
+    
+    font-size: clamp(10px, 5vw, 16px);
+}
+.right1 p{
+    color: #81AFDD;
+}
+.into{
+    padding: 10px;
+    color: white;
+}
+
+.intro2{
+    display: flex;
+    padding: 20px;
+  
+    
+}
+.left2{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 105.37%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+
+}
+.left2 p{
+font-weight: 800;
+font-size:clamp(12px, 5vw, 30px);
+}
+
+.right2{
+    display: flex;
+    width: 50%;
+    justify-content: right;
+    align-items: center;
+    background: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 105.37%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.intro3{
+    display: flex;
+    padding: 20px;
+    gap: 30px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+.card p{
+    color: #81AFDD;
+    font-size: clamp(8px, 5vw, 14px);
+}
+
+.top-border{
+    display: flex;
+    margin-bottom: 5px;
+    content: '';
+    width: 30px;
+    height: 3px;
+    position: relative;
+    background: linear-gradient(45deg,#AE67FA, #F49867);
+}
+
+.bottom{
+    display: flex;
+    padding: 80px;
+    gap: 10%;
+}
+.card2{
+    color:#fff;
+    justify-content: center;
+    gap: 2%;
+    display: flex;
+    flex-direction: column;
+    font-weight: 800;
+    width: 20%;
+}
+
+.card1{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    font-size: clamp(8px, 5vw, 20px);
+  
+}
+.card1 h2 {
+    background: linear-gradient(45deg,#AE67FA, #F49867);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.card1 p {
+    color: #FF8A71;
+    font-size: clamp(8px, 5vw, 14px);
+
+}
+.bottom1
+{
+    display: flex;
+    justify-content: center;
+    padding: 0px 80px;
+    gap: 10%;
+}
+.pic{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pic img{
+    height: 95%;
+    width: 90%;
+}
+.pictxt{
+    display: flex;
+    margin-top: 10%;
+    justify-content: center;
+    width: 50%;
+    flex-direction: column;
+    gap: 20px;
+}
+.pictxt p {
+    margin-block: 0px;
+}
+.p1{
+    color: #71E5FF;
+}
+.p2{
+    font-size: clamp(16px, 5vw, 34px);
+    background: linear-gradient(45deg,#AE67FA, #F49867);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 800;
+}
+.p3{
+    color: #FF8A71;
+}
+.bottom2{
+   
+    display: flex;
+ padding: 80px;
+}
+.bottom3cont{
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    width: 100%;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    padding: 35px;
+}
+.bottom3cont{
+    margin-block: 0px;
+}
+.left3{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.left3 p {
+        color: black;
+        font-size: 12px;
+}
+#p5{
+    
+    font-size: clamp(16px, 5vw, 24px);
+    font-weight: 800;
+    margin-block: 0px;
+}
+.right3{
+    width: 30%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+.right3 button{
+    background-color: black;
+    border: none;
+    padding: 15px;
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+    width: 45%;
+}
+button {
+    cursor: pointer;
+    color: #fff;
+    border: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease,
+      border-radius 0.3s ease, opacity 0.3s ease, text-shadow 0.3s ease;
+  }
+  
+  button:hover {
+   
+    color: #f8f9fa;
+    transform: translateY(-3px) scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    opacity: 0.9;
+    text-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+  }
+  .innertxt{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(45deg,#AE67FA, #F49867);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+.bottom3{
+   
+    display: flex;
+ padding: 0px 80px;
+}
+  .innertxt p{
+    font-size: clamp(20px, 5vw, 50px);
+    font-weight: 800;
+  }
+  .leftcard{
+    width: 33.33%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .rightcard{
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8%;
+    
+    
+
+  }
+  .blog1{
+    background: rgba(4, 44, 84, 1);
+    padding: 15px;
+    display: flex;
+    /* justify-content: space-between; */
+    flex-direction: column;
+
+  }
+
+  .blog1 span{
+    font-size: 12px;
+    font-weight: 700;
+  }
+  .blog1 p{
+    font-size: clamp(12px, 5vw, 25px);
+    font-weight: 800;
+  }
+  .blog1 :nth-child(3){
+    margin-top: 80px;
+  }
+   
+  .blog2{
+    background: rgba(4, 44, 84, 1);
+    padding: 15px;
+    display: flex;
+    /* justify-content: space-between; */
+    flex-direction: column;
+
+  }
+
+  .blog2 span{
+    font-size: clamp(8px, 5vw, 12px);
+    font-weight: 700;
+  }
+  .blog12{
+    font-size: clamp(10px, 5vw, 20px);
+    font-weight: 800;
+  }
+  .blog2 :nth-child(3){
+    margin-top: 10px;
+  }
+  .gridcard{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    margin-bottom: 10px;
+  }
+  .bottom4
+{
+    display: flex;
+    justify-content: center;
+    padding: 0px 80px 80px;
+    gap: 6%;
+    color: #fff;
+}
+footer{
+    color: #fff;
+}
+.footer1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+    flex-direction: column;
+    background: rgba(3, 27, 52, 1);
+
+} 
+.footer1 p{
+    font-size: clamp(20px, 5vw, 40px);
+    font-weight: 800;
+    background: linear-gradient(45deg,#AE67FA, #F49867);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-block: 0px;
+}
+.footer1 button{
+    border: 1px solid white;
+    background-color: rgba(3, 27, 52, 1);
+    padding: 10px;
+    margin-top: 30px;
+}
+.footer2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 80px;
+    background: rgba(3, 27, 52, 1);
+
+}
+.fcards
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 20%;
+    gap: 20px;
+}
+.fcards li {
+    list-style: none;
+    font-size: clamp(8px, 5vw, 14px);;
+}
+
+
+.fcards1
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 40%;
+}
+.fcards1 p{
+    font-size: clamp(6px, 5vw, 12px);;
+}
+.fcards1 img{
+    width: 20%;
+}
+footer{
+    background-color: rgba(3, 27, 52, 1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.copyright{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   padding:  80px 0px 30px 0px;
+}
+
+@media (max-width: 1000px) {
+    nav {
+        font-size: 10px;
+        padding: 16px 60px;
+    }
+    .herodisplay {
+        padding: 0px 60px;
+    }
+    .herotext {
+        font-size: 40px;}
+    .bottom {
+            
+            padding: 60px;}
+    .card2{
+        width: 30%;
+    }
+    .card2 p{
+        font-size: 12px;
+    }
+    
+    .card p {
+       
+        font-size: 10px;
+    }
+    .bottom4 {
+        padding: 0px 60px 60px;
+
+    }
+    .bottom3 {
+        padding: 0px 60px;
+    }
+    .bottom2 {
+       
+        padding: 60px;
+    }
+    .bottom1 {
+        padding: 0px 60px;
+    }
+    .introduction {
+        
+        margin: 0px 60px;
+    }
+    .footer1 {
+        
+        padding: 60px;
+    
+    }
+    .footer2 {
+             
+        padding: 0px 60px;
+        
+    }
+    .copyright {
+      
+        padding: 60px 0px 30px 0px;
+    }
+}
+    
+
+@media (max-width: 950px) {
+    
+    .herotext {
+        font-size: 35px;
+    }
+    .email input {
+        width: 60%;}
+    .midtext {
+            font-size: 12px;}
+    .left2 p {
+             
+                font-size: 25px;
+            }
+            .right1 p {
+                font-size: 14px;
+              
+            }
+            .blog1 :nth-child(3) {
+                margin-top: 60px;
+            }
+            .blog2 :nth-child(3) {
+                margin-top: 0px;
+            }
+            .blog2 p {
+                font-size: 14px;
+            }
+            .rightcard {
+                gap: 35px;
+            }
+            .footer1 {
+        
+                padding: 60px;
+            
+            }
+            .footer2 {
+             
+                padding: 0px 60px;
+            }
+            .copyright {
+      
+                padding: 60px 0px 30px 0px;
+            }
+}
+@media (max-width: 855px){
+
+    .navigation :nth-child(1) {
+        font-size: 14px;
+       
+    }
+
+    .navigation {
+       
+        gap: 8%;
+        
+    }
+    .signing button {
+        font-size: 10px;
+        padding: 6px 25px 6px 25px;
+    }
+    .herotext {
+        font-size: 25px;
+    }
+    .midtext {
+        font-size: 10px;
+    }
+    .email button {
+      
+        padding: 6px;
+        font-size: 6px;
+    }
+    .email input {
+        width: 60%;
+        font-size: 8px;
+    }
+    .herodisplay {
+        padding: 0px 40px;
+    }
+    nav {
+        padding: 16px 40px;
+    }
+    .tools {
+        padding: 40px;
+        
+    }
+    .introduction {
+        margin: 0px 40px;
+    }
+    .right1 p {
+        font-size: 13px;
+    }
+    .left1 p {
+        font-size: 20px;
+    
+    }
+    .left2 p {
+        font-size: 20px;
+    }
+    .right2 {
+        font-size: 13px;
+    
+    }
+    .card1 h2 {
+        font-size: 22px;}
+        .card1 p {
+            color: #FF8A71;
+            font-size: 10px;
+        }
+        .card2 p {
+            font-size: 10px;
+        }
+        .card2 {
+            justify-content: start;
+            gap: 5px;
+        }    
+        .bottom {
+           
+            gap: 5%;
+        }
+        .bottom {
+            padding: 40px;
+        }
+        .card p{
+          
+            font-size: 10px;
+        }
+        .bottom1 {
+            padding: 0px 40px;
+        }
+        .p1 {
+          
+            font-size: 10px;
+        }
+        .p2 {
+            font-size: 20px;}
+            .p3 {
+                font-size: 10px;
+               
+            }
+            .left3 p {
+         
+                font-size: 10px;
+            }
+            #p5{
+                font-size: 20px;
+            }
+            .right3 button {
+            
+                padding: 10px;
+                width: 60%;
+                font-size: 10px;
+            }
+            .innertxt p {
+                font-size: 30px;
+
+            }
+            .blog1 :nth-child(3) {
+                margin-top: 15px;
+            }
+            .rightcard {
+                gap: 20px;
+            }
+            .blog2 p {
+                font-size: 12px;
+            }
+            .blog2 span {
+                font-size: 10px;
+            
+            }
+            .footer1 {
+                padding: 40px;
+            }
+            .footer2 {
+                padding: 40px;
+            }
+            .footer1 p {
+                font-size: 30px;}
+                .footer1 button {
+                    font-size: 10px;
+                    padding: 8px;
+                
+                }
+        
+}
+@media (max-width: 500px){
+    nav {
+        padding: 10px;
+    }
+    .navigation :nth-child(1) {
+        font-size: 10px;
+    }
+    .navigation {
+        gap: 6%;
+    }
+    nav {
+        font-size: 6px;
+
+    }
+    .signing button {
+        font-size: 8px;
+        padding: 5px;
+    }
+    .herotext {
+        font-size: 14px;
+    }
+    .midtext {
+        font-size: 8px;
+    }
+    .email {
+        padding: 5px 0px;
+     
+    }
+    .email button {
+        padding: 4px;
+        font-size: 5px;
+    }
+    .email input {
+        width: 50%;
+        font-size: 8px;
+    }
+    .herodisplay {
+        padding: 10px;
+    }
+    .introduction {
+        margin: 0px ;
+    }
+    .intro1 {
+   
+        padding: 0px;
+        gap:20px;
+    }
+    .left1 p {
+        font-size: 14px;
+    }
+    .right1 p {
+        font-size: 10px;
+    }
+    .right1 {
+        width: 70%;
+    }
+    .left2 p {
+        font-size: 14px;
+    }
+    .right2 {
+        font-size: 10px;
+    }
+    .into {
+        padding: 0px;
+    }
+    .intro3 {
+    
+        padding: 0px;
+        gap: 10px;
+    }
+    .card h3 {
+        font-size: 12px;
+    }
+    .card p {
+        font-size: 8px;
+    }
+    .bottom {
+        padding: 20px;
+        gap: 2%;
+    }
+    .card1 h2 {
+        font-size: 14px;
+    }
+    .card2 p {
+        font-size: 6px;
+    }
+    .card {
+       
+        width: 50%;
+    }
+    .p2 {
+        font-size: 12px;
+    }
+    .p1 {
+        font-size: 8px;
+    }
+    .bottom1 {
+        padding: 0px 20px;
+    }
+    .bottom1 {
+       
+        gap: 0%;
+    }
+    .p3 {
+        font-size: 8px;
+    }
+    .bottom2 {
+        padding: 20px;
+    }
+    .bottom3cont {
+    
+        padding: 10px;
+    }
+    #p5 {
+        font-size: 12px;
+    }
+    .left3 p {
+        font-size: 8px;
+    }
+    .right3 button {
+        padding: 6px;
+        width: 70%;
+        font-size: 8px;
+    }
+    .innertxt p {
+        font-size: 14px;
+    }
+    .innertxt {
+        width: 100%;
+    }
+    .bottom3 {
+        padding: 0px 20px;
+    }
+    .bottom4 {
+        padding: 20px 20px 20px;
+    }
+    .blog1 p {
+        font-size: 12px
+    }
+    .blog1 span {
+        font-size: 8px;
+    }
+    .blog2 p {
+        font-size: 10px;
+    }
+    .blog2 span {
+        font-size: 8px;
+    }
+    .blog2 {
+        padding: 5px;
+    }
+    .rightcard {
+        gap: 6px;
+    }
+    .blog1 {
+        padding: 5px;
+        
+    }
+    .footer1 {
+        padding: 20px;
+    }
+    .footer2 {
+        padding: 0px 20px;
+    }
+    .fcards li {
+       
+        font-size: 8px;
+    }
+    .fcards1 p {
+        font-size: 8px;
+    }
+    .fcards1 img {
+        width: 40%;
+    }
+}
